@@ -5,7 +5,7 @@ class Stack {
     }
 
     push(item) {
-        this.data.push(item);
+        this.data[this.top] = item;
         this.top += 1;
     }
 
