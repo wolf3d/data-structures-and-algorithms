@@ -31,8 +31,7 @@ class Stack {
 
     print() {
         let top = this.top - 1;
-        while (top >= 0) {
-            console.log({top: top});
+        while (top >= 0) {            
             console.log(this.data[top]);
             top--;
         }
